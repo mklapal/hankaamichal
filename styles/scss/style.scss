@@ -1,0 +1,16 @@
+//how to run
+/*
+
+powershell
+cd 'C:\wamp\www\svatba\styles'
+sass --watch scss:css --style compressed
+*/
+
+
+@import "_reset";
+@import "_settings";
+@import "_mixin";
+@import "_general";
+
+
+
