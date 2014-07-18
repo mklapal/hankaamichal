@@ -1,0 +1,155 @@
+.box-wrapper {
+	width: auto;
+	float: left;
+	text-align: center;
+	clear: both;
+	width: 100%;
+	margin: 1em 0 0em;
+}
+.box {
+	width: 200px;
+	height: 200px;
+	background: white;
+	float: left;
+	position: relative;
+	margin-right:1em;
+	margin-bottom:1em;
+	.url {
+		display: inline-block;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		background: white;
+		opacity:0.8;
+		width: 200px;
+		z-index: 9;
+		overflow: hidden;
+		height: 30px;
+
+		a{
+			text-decoration:none;
+			font-size:0.8em;
+			font-weight:bold;
+		}
+
+		.wrapper {
+			padding: 5px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			line-height: 0.8em;
+		}
+	}
+	.front {
+		display: block;
+		background: white;
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		z-index: 5;
+		cursor: pointer;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+
+		&.mikrovlnka{ background-image:url('../../images/mikrovlnka.jpg'); }
+		&.misky{ background-image:url('../../images/misky.jpg'); }
+		&.nacini{ background-image:url('../../images/nacini.jpg'); }
+		&.naradi{ background-image:url('../../images/naradi.jpg'); }
+		&.panev{ background-image:url('../../images/panev.jpg'); }
+		&.poukaz_ikea{ background-image:url('../../images/poukaz_ikea.jpg'); }
+		&.pribory{ background-image:url('../../images/pribory.jpg'); }
+		&.sklenky{ background-image:url('../../images/sklenky.jpg'); }
+		&.slehac{ background-image:url('../../images/slehac.jpg'); }
+		&.talire{ background-image:url('../../images/talire.jpg'); }
+		&.valecek{ background-image:url('../../images/valecek.jpg'); }
+		&.vaza{ background-image:url('../../images/vaza.jpg'); }
+		&.vino{ background-image:url('../../images/vino.jpg'); }
+		&.zapekaci_miska{ background-image:url('../../images/zapekaci_miska.jpg'); }
+
+	}
+	.back {
+		text-align: left;
+		background: $grey;
+		width: 200px;
+		height: 200px;
+		z-index: 4;
+		position: relative;
+		cursor: pointer;
+		.wrapper {
+			padding: 10px;
+		}
+	}
+	h3 {
+		text-align: left;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		font-size: 1em;
+		font-weight: bold;
+	}
+	p {
+		text-align: left;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		font-size: 0.8em;
+	}
+	.cena {
+		position: absolute;
+		left: 5px;
+		bottom: 35px;
+		background: $pink;
+		color: $white;
+		font-size: 1.2em;
+		font-weight: bold;
+		padding:5px;
+	}
+	.rezervace {
+		position: absolute;
+		right: 5px;
+		bottom: 35px;
+		background: $chocolate;
+		color: $white;
+		cursor: pointer;
+		padding:5px;
+	}
+}
+.popup {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.75);
+	z-index: 99999;
+	//opacity: 0;
+	//pointer-events: none;
+	.js-error {
+		display: none;
+	}
+	.js-confirm {
+		display: none;
+	}
+	.js-loading {
+		display: none;
+	}
+	.js-hint {
+		display: none;
+	}
+}
+.popup:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+.popup > div {
+	width: 300px;
+	position: relative;
+	top: 50%;
+	margin: 200px auto;
+	padding: 20px;
+	background: #666;
+	background: $chocolate;
+	color: #fff;
+	text-align: center;
+}
