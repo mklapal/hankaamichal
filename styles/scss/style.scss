@@ -3,6 +3,7 @@
 
 powershell
 cd 'C:\wamp\www\svatba\styles'
+cd ~/workspace/hankaamichal/styles
 sass --watch scss:css --style compressed
 */
 
