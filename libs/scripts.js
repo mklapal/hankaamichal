@@ -95,7 +95,9 @@ $( document ).ready(function() {
 
 	        $.ajax({
 	            type: "POST",
-	            url: "http://localhost/hankaamichal/content/function-email.php",
+	            //url: "http://localhost/hankaamichal/content/function-email.php",
+	            url: "http://hankaamichal.sivensport.cz/content/function-email.php",
+
 	            data: {"dar": dar, "email": email}, // serializes the form's elements.
 	            success: function(data)
 	            {
@@ -103,6 +105,8 @@ $( document ).ready(function() {
 	                if (data === "true"){
 	                	$this.find(".js-loading").css("display", "none");
 	                    $this.find('.js-confirm').css("display", "block");
+
+	                	$('.js-dar-'+dar).empty().append('Zamluveno');
 	                } else {
 	                	$this.find(".js-loading").css("display", "none");
 	                    $this.find('.js-error').css("display", "block");

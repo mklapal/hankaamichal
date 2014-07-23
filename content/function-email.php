@@ -14,8 +14,8 @@ function return_url($input) {
 }
 
 //test
-$_POST["dar"] = "1";
-$_POST["email"] = "michalklapal@gmail.com";
+//$_POST["dar"] = "1";
+//$_POST["email"] = "michalklapal@gmail.com";
 
 //echo $_POST["dar"];
 //echo $_POST["email"];
@@ -34,8 +34,12 @@ if ($_POST["dar"] && $_POST["email"]){
   //print_r( $data );
 
   $_POST['nazev'] = $data['data'][$_POST["dar"]]['nazev'];
+  $_POST['popis'] = $data['data'][$_POST["dar"]]['popis'];
+  $_POST['cena'] = $data['data'][$_POST["dar"]]['cena'];
+  $_POST['url'] = $data['data'][$_POST["dar"]]['url'];
 
-  $data['data'][$_POST["dar"]]['status'] = "zamluveno";
+
+  $data['data'][$_POST["dar"]]['status'] = "1";
 
   json_encode($data);
 
@@ -47,17 +51,26 @@ if ($_POST["dar"] && $_POST["email"]){
 
 //odešle email zákazníkovi a nám
     $message = ('
-      Dobrý den,
+      Hezký den,
       <br><br>
       Děkujeme za rezervaci daru!
       <br><br>
       Název daru: '.$_POST["nazev"].'
+      Popis:<br>'.$_POST["popis"].'<br>
+      Cena: '.$_POST["cena"].'<br>
+      Kde koupit: '.$_POST["url"].'<br>
       <br><br>
       Email: '.$_POST["email"].'      
       <br><br>
-      Těšíme se 18.10.2014!
+      Těšíme se na Vás 18.10.2014!
       <br><br>
-      Hanka a Michal
+      Hanka ❤ Michal
+      <br>
+      hanka.staronova@gmail.com<br>
+      michalklapal@gmail.com<br>
+      tel.: 732 158 761, 607 786 703<br>
+      <br>
+      <a href="http://www.hankamichal.cz">http://www.hankamichal.cz</a>
     ');
     
     //echo $message;
@@ -90,7 +103,7 @@ if ($_POST["dar"] && $_POST["email"]){
       $mail->AddReplyTo('michalklapal@gmail.com', 'Michal Klapal');
       $mail->AddAddress($val[0], $val[1]);
       
-      $mail->Subject    = "Hanka a Michal - rezervace daru"; //předmět mailu 
+      $mail->Subject    = "Hanka ❤ Michal - potvrzeni rezervace daru"; //předmět mailu 
       $mail->AltBody    = strip_tags($message); // optional, comment out and test
       $mail->MsgHTML($message);
     

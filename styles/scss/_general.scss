@@ -4,10 +4,16 @@ body{
 	background:$background-color;
 	color:$font-color;
 	font-weight: 300;
-	line-height:1.2em;
+	font-weight: lighter;
+	font-weight: light;
+	line-height:1.25em;
 
 	a{
 		color:$black;
+	}
+
+	strong{
+		font-weight:bold;
 	}
 }
 
@@ -49,9 +55,10 @@ body{
 	}
 
 	.text{
+		@include clearfix();
 		display:none;
-		float:left;
-		margin:1em 0 1em;
+		margin:1em 4em 1em;
+		text-align:justify;
 		&.transition{
 			display:block;
 		}
@@ -66,16 +73,16 @@ body{
 .footer{
 	text-align:center;
 	//border-top:1px solid black;
-	margin:5em 0;
-	padding:1em 0 0;
+	margin:50px 0 5em;
+	padding:0em 0 0;
 
 
 	.logo-razitko{
-		height:150px;
+		height:200px;
 		background-image:url('../../tmp/logo_razitko.svg');
 		background-repeat: no-repeat;
 		background-position: center center;
-		background-size: contain;
+		background-size: 250px 250px;
 	}
 
 }
@@ -86,4 +93,35 @@ body{
 		display:inline-block;
 		padding:0 1em 0 0;
 	}
+}
+
+.oznameni-wrapper{
+	margin:1em 0 1em;
+	clear:both;
+	text-align:center;
+	padding:0 0 2em;
+}
+
+.oznameni-pict{
+	width:100%;
+	border:1px solid $chocolate;
+}
+
+.kontakt-center{
+	text-align:center;
+}
+
+p.gallery{
+	@include clearfix();
+	text-align:center;
+	width:670px;
+	margin:auto;
+
+	a{
+		float:left;
+		margin-right:1em;
+		margin-bottom:1em;
+		text-decoration:none;
+	}
+
 }

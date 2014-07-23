@@ -19,7 +19,7 @@ foreach ($data["data"] as $key) {
                 <h3>'.$key['nazev'].'</h3>
                 <p>'.$key['popis'].'</p>
                 <div class="cena">'.$key['cena'].'</div>
-                <div class="rezervace js-darovat">
+                <div class="rezervace js-darovat js-dar-'.$key['id'].'">
                 ');
                 if ($key['status'] === "0"){
                     $output .= ('Rezervovat');
@@ -52,15 +52,15 @@ foreach ($data["data"] as $key) {
     <div class="popup">
         <div>
         
-        <p class="js-form">
-        Pro rezervaci daru prosim vyplnte Vasi emailovou adresu:
+        <p class="js-form form">
+        Pro rezervaci daru prosím vyplňte Vaši emailovou adresu:
         <input class="js-dar" type="hidden" name="dar" value="'.$key['id'].'">
-        <input class="js-input" name="email" type="email" placeholder="Vase emailova adresa">
-        <input type="submit" class="js-submit" value="Zarezervovat">
+        <input class="js-input email" name="email" type="email" placeholder="Vaše emailová adresa">
+        <input type="submit" class="submit js-submit" value="Zarezervovat">
         </p>
 
         <p class="js-hint">
-        Vyplnte prosim Vas email!
+        Vyplňte prosím Váš email!
         </p>
 
         <p class="js-loading">
@@ -68,11 +68,11 @@ foreach ($data["data"] as $key) {
         </p>        
 
         <p class="js-confirm">
-        Dekujeme za rezervaci daru. Email s potvrzenim byl odeslan na Vasi adresu.
+        Děkujeme za rezervaci daru. Email s potvrzením byl odeslán na Vaši adresu.
         </p>
 
         <p class="js-error">
-        Nastala chyba pri rezervaci. Prosim obnovte stranku a zkuste dar zarezervovat znovu. Pokud problemy pretrvavaji, kontaktujte nas!
+        Nastala chyba při rezervaci. Prosím obnovte stránku a zkuste dar zarezervovat znovu. Pokud problémy přetrvávají, kontaktujte nás!
         </p>
 
         </div>
@@ -84,7 +84,7 @@ foreach ($data["data"] as $key) {
     $output .=('
     <div class="popup">
         <div>
-        Tento dar je se jiz rozhodl nekdo darovat. Prosim vyberte si jiny z nabidky!
+        Tento dar je se již rozhodl někdo darovat. Prosím vyberte si jiný z nabídky!
         </div>
     </div>
     ');
