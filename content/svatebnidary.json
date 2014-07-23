@@ -2,12 +2,12 @@
   "data": [
     {
       "id": "0",
-      "nazev": "K8vovar espresso",
+      "nazev": "Kávovar na espresso",
       "popis": "Nerezový, poctivý, na kávu ne kapsle!, bez mlýnku",
-      "cena": "cca 5.000,-",
+      "cena": "3.000,-",
       "status": "0",
-      "url": "",
-      "pict": "presovac"
+      "url": "www.cesk.cz/domaci-kavovar-espresso-delonghi-icona-eco-310w/",
+      "pict": "espresso"
     },
     {
       "id": "2",
@@ -26,6 +26,15 @@
       "status": "1",
       "url": "",
       "pict": "zlato"
+    },
+    {
+      "id": "18",
+      "nazev": "Vysavač",
+      "popis": "jednoduchý, malý<br>dle Vašeho výběru",
+      "cena": "cca 1.500,-",
+      "status": "0",
+      "url": "",
+      "pict": "vysavac"
     },
     {
       "id": "3",
@@ -109,6 +118,15 @@
       "pict": "zapekaci_miska"
     },
     {
+      "id": "17",
+      "nazev": "Forma na koláč",
+      "popis": "průměr 25-30cm<br>dle Vašeho výběru<br>např. Ikea SMARTA",
+      "cena": "149,-",
+      "status": "0",
+      "url": "www.ikea.com/cz/cs/catalog/products/00132920/?query=SMARTA+Forma+na+kol%C3%A1%C4%8D#/20132919",
+      "pict": "kolac"
+    },
+	{
       "id": "11",
       "nazev": "Sklenice na bílé víno",
       "popis": "čiré, bez zdobení či pískování<br>dle Vašeho výběru<br>např. Ikea SVALKA",

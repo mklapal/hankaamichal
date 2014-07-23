@@ -43,7 +43,7 @@
 			</p>
 
 			<p>
-				Svatební hostina s ubytováním pro všechny svatebčany bude připravena ve Valašské Rychtě ve Frenštátu pod Radhoštěm. Všechny pozvané přivítáme v sobotu 18. října v dopoledních hodinách v domě nevěsty.
+				Svatební hostina s ubytováním pro všechny svatebčany bude připravena ve Valašské Rychtě ve Frenštátu pod Radhoštěm. Všechny pozvané přivítáme v sobotu 18. října v dopoledních hodinách v domě nevěsty. Obřad se uskuteční v pravé poledne v piaristickém klášteře v Příboře.
 			</p>
 		</div>
 		<h2>Svatební oznámení</h2>
@@ -163,6 +163,11 @@
 				michalklapal@gmail.com<br>
 				telefon 732 158 761
 			</p>
+			
+			<p class="kontakt-center">
+			<a href="http://www.hankamichal.cz">www.hankamichal.cz</a>
+			</p>
+
 		</div>
 
 	
@@ -177,6 +182,18 @@
 	</footer>
 
 	</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6259381-25', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </body>
 
 </html>

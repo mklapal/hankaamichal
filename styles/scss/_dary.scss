@@ -51,6 +51,7 @@
 			background-position: center center;
 			background-size: cover;
 
+		&.espresso{ background-image:url('../../images/espresso.jpg'); }
 		&.mikrovlnka{ background-image:url('../../images/mikrovlnka.jpg'); }
 		&.misky{ background-image:url('../../images/misky.jpg'); }
 		&.nacini{ background-image:url('../../images/nacini.jpg'); }
@@ -67,7 +68,8 @@
 		&.vkrajec{ background-image:url('../../images/vkrajec.jpg'); }
 		&.zapekaci_miska{ background-image:url('../../images/zapekaci_miska.jpg'); }
 		&.zlato{ background-image:url('../../images/zlato.jpg'); }
-
+		&.kolac{ background-image:url('../../images/kolac.jpg'); }
+		&.vysavac{ background-image:url('../../images/vysavac.jpg'); }
 
 	}
 	.back {
