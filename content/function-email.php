@@ -19,10 +19,11 @@ function return_url($input) {
 
 //echo $_POST["dar"];
 //echo $_POST["email"];
+//exit;
 
 //update json
 
-if ($_POST["dar"] && $_POST["email"]){
+if ($_POST["dar"] <> '' && $_POST["email"] <> ''){
 
   if (file_exists('svatebnidary.json')){
     $data = json_decode(file_get_contents('svatebnidary.json'), true);
@@ -48,6 +49,9 @@ if ($_POST["dar"] && $_POST["email"]){
 
   //exit;
 
+  if ($_POST["url"] == ''){
+    $_POST["url"] = 'kdekoliv';
+  }
 
 //odešle email zákazníkovi a nám
     $message = ('
@@ -56,7 +60,9 @@ if ($_POST["dar"] && $_POST["email"]){
       Děkujeme za rezervaci daru!
       <br><br>
       Název daru: '.$_POST["nazev"].'
-      Popis:<br>'.$_POST["popis"].'<br>
+      <br>
+      Popis:<br>
+      '.$_POST["popis"].'<br>
       Cena: '.$_POST["cena"].'<br>
       Kde koupit: '.$_POST["url"].'<br>
       <br><br>
@@ -93,8 +99,17 @@ if ($_POST["dar"] && $_POST["email"]){
     
     $mail->CharSet = "UTF-8";
     $mail->ContentType     = "text/html";
+
+    $mail->IsSMTP(); // telling the class to use SMTP
+    $mail->SMTPDebug  = 1;                     // enables SMTP debug information (for testing)
+    $mail->SMTPAuth   = true;                  // enable SMTP authentication
+    $mail->SMTPSecure = "tls";                 // sets the prefix to the servier
+    $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
+    $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
+    $mail->Username   = "michalklapal@gmail.com";  // GMAIL username
+    $mail->Password   = "";            // GMAIL password
     
-    $add[] = array($_POST['email'], $_POST['name']);
+    $add[] = array($_POST['email']);
     $add[] = array('michalklapal@gmail.com', 'Michal Klapal');
     
     foreach ($add as $key => $val) {

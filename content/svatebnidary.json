@@ -10,7 +10,7 @@
       "pict": "espresso"
     },
     {
-      "id": "2",
+      "id": "1",
       "nazev": "Mikrovlná trouba",
       "popis": "jednoduchý design<br>líbí se nám nerez či stříbrná<br>dle Vašeho výběru",
       "cena": "3.000,-",
@@ -19,16 +19,16 @@
       "pict": "mikrovlnka"
     },
     {
-      "id": "999",
+      "id": "2",
       "nazev": "64kg zlata",
-      "popis": "24 karátové zlato v cihlách. Možno uložit v bance a pouze předat klíč.",
+      "popis": "24 karátové zlato v cihlách. Možno uložit v bance a předat klíč.",
       "cena": "nekonečná",
       "status": "1",
       "url": "",
       "pict": "zlato"
     },
     {
-      "id": "18",
+      "id": "3",
       "nazev": "Vysavač",
       "popis": "jednoduchý, malý<br>dle Vašeho výběru",
       "cena": "cca 1.500,-",
@@ -37,7 +37,7 @@
       "pict": "vysavac"
     },
     {
-      "id": "3",
+      "id": "4",
       "nazev": "Talířová sada",
       "popis": "bílá bez dekoru, jednoduchý design<br>Thun 1794 karlovarský porcelán TOM<br>prosíme dodržet, je do sady s miskami",
       "cena": "1.640,-",
@@ -46,7 +46,7 @@
       "pict": "talire"
     },
     {
-      "id": "4",
+      "id": "5",
       "nazev": "Misky",
       "popis": "bílá bez dekoru, jednoduchý design<br>Thun 1794 karlovarský porcelán TOM<br>prosíme dodržet, je do sady s talíři",
       "cena": "1.190,-",
@@ -55,7 +55,7 @@
       "pict": "misky"
     },
     {
-      "id": "5",
+      "id": "6",
       "nazev": "Elektrický ruční šlehač",
       "popis": "mixer, ne moc velký<br>dle Vašeho výběru",
       "cena": "cca 1.000,-",
@@ -64,7 +64,7 @@
       "pict": "slehac"
     },
     {
-      "id": "6",
+      "id": "7",
       "nazev": "Domácí sada nářadí",
       "popis": "z kovu, který vydrží<br>dle Vašeho výběru",
       "cena": "cca 1.500,-",
@@ -73,7 +73,7 @@
       "pict": "naradi"
     },
     {
-      "id": "7",
+      "id": "8",
       "nazev": "Příbory",
       "popis": "celokovové, jednoduchý design<br>Ikea SEDLIG<br>alternativně varianta Tescoma – TOSCANA či podobný styl",
       "cena": "998,-",
@@ -82,7 +82,7 @@
       "pict": "pribory"
     },
     {
-      "id": "1",
+      "id": "9",
       "nazev": "Kuchyňské náčiní",
       "popis": "kleště, metla, obracečka, naběračka, odstředovačka, šťouchačka<br>Ikea, výběr ze série HJALTE",
       "cena": "474,-",
@@ -91,7 +91,7 @@
       "pict": "nacini"
     },
     {
-      "id": "8",
+      "id": "10",
       "nazev": "Pánev - větší",
       "popis": "kvalitní pánev dle Vašeho výběru - větší",
       "cena": "1.000,-",
@@ -100,7 +100,7 @@
       "pict": "panev"
     },
     {
-      "id": "9",
+      "id": "11",
       "nazev": "Pánev - menší",
       "popis": "kvalitní pánev dle Vašeho výběru - menší",
       "cena": "400,-",
@@ -109,7 +109,7 @@
       "pict": "panev"
     },
     {
-      "id": "10",
+      "id": "12",
       "nazev": "Zapékací mísa",
       "popis": "bílý porcelán, jednoduchý design<br>Český porcelán Dubí<br>série Bohemia Duo – malá<br>alternativně Ikea SMARTA",
       "cena": "252,-",
@@ -118,7 +118,7 @@
       "pict": "zapekaci_miska"
     },
     {
-      "id": "17",
+      "id": "13",
       "nazev": "Forma na koláč",
       "popis": "průměr 25-30cm<br>dle Vašeho výběru<br>např. Ikea SMARTA",
       "cena": "149,-",
@@ -127,7 +127,7 @@
       "pict": "kolac"
     },
 	{
-      "id": "11",
+      "id": "14",
       "nazev": "Sklenice na bílé víno",
       "popis": "čiré, bez zdobení či pískování<br>dle Vašeho výběru<br>např. Ikea SVALKA",
       "cena": "99,-",
@@ -136,7 +136,7 @@
       "pict": "sklenky"
     },
     {
-      "id": "12",
+      "id": "15",
       "nazev": "Váleček na těsto",
       "popis": "dle Vašeho výběru",
       "cena": "200,-",
@@ -145,7 +145,7 @@
       "pict": "valecek"
     },
     {
-      "id": "13",
+      "id": "16",
       "nazev": "Struhadlo",
       "popis": "V-krouhač<br>dle Vašeho výběru",
       "cena": "500,-",
@@ -154,7 +154,7 @@
       "pict": "vkrajec"
     },
     {
-      "id": "14",
+      "id": "17",
       "nazev": "Dobré víno",
       "popis": "dle Vašeho výběru",
       "cena": "od 100,-",
@@ -163,7 +163,7 @@
       "pict": "vino"
     },
     {
-      "id": "15",
+      "id": "18",
       "nazev": "Váza",
       "popis": "zajímavý design<br>dle Vašeho výběru",
       "cena": "různá",
@@ -172,7 +172,7 @@
       "pict": "vaza"
     },
     {
-      "id": "16",
+      "id": "19",
       "nazev": "Poukaz Ikea",
       "popis": "libovolná částka",
       "cena": "různá",

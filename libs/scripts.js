@@ -41,8 +41,6 @@ $( document ).ready(function() {
 	$(".front").click(function(event) {
 		event.stopPropagation();
 		
-		console.log("click front");
-
 		$(this).slideUp();
 
 	});
@@ -50,8 +48,6 @@ $( document ).ready(function() {
 	$(".back").click(function(event) {
 		event.stopPropagation();
 
-		console.log("click back");
-		
 		$(this).prev(".front").slideDown();
 
 	});
@@ -60,8 +56,6 @@ $( document ).ready(function() {
 	$( ".js-darovat" ).click(function(event) {
 		event.stopPropagation();
 		
-		console.log("click darovat");
-
 		$(this).closest('.box').next(".popup" ).css("display", "block");
 		
 	});
@@ -96,7 +90,7 @@ $( document ).ready(function() {
 	        $.ajax({
 	            type: "POST",
 	            //url: "http://localhost/hankaamichal/content/function-email.php",
-	            url: "http://hankaamichal.sivensport.cz/content/function-email.php",
+	            url: "http://www.hankamichal.cz/content/function-email.php",
 
 	            data: {"dar": dar, "email": email}, // serializes the form's elements.
 	            success: function(data)
