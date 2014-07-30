@@ -5,6 +5,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Hanka ❤ Michal</title>
+  
+  <link rel="icon" href="http://www.hankamichal.cz/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://www.hankamichal.cz/favicon.ico" type="image/x-icon">
+
 	<script src="libs/vendor/jquery-1.11.1.min.js" type="text/javascript"></script>
 	
 	<script src="libs/vendor/lightbox.min.js" type="text/javascript"></script>
