@@ -5,7 +5,7 @@
       "nazev": "Kávovar na espresso",
       "popis": "Nerezový, poctivý, na kávu ne kapsle!, bez mlýnku",
       "cena": "3.000,-",
-      "status": "0",
+      "status": "1",
       "url": "www.cesk.cz/domaci-kavovar-espresso-delonghi-icona-eco-310w/",
       "pict": "espresso"
     },
@@ -14,7 +14,7 @@
       "nazev": "Mikrovlná trouba",
       "popis": "jednoduchý design<br>líbí se nám nerez či stříbrná<br>dle Vašeho výběru",
       "cena": "3.000,-",
-      "status": "0",
+      "status": "1",
       "url": "",
       "pict": "mikrovlnka"
     },
@@ -59,7 +59,7 @@
       "nazev": "Elektrický ruční šlehač",
       "popis": "mixer, ne moc velký<br>dle Vašeho výběru",
       "cena": "cca 1.000,-",
-      "status": "0",
+      "status": "1",
       "url": "",
       "pict": "slehac"
     },
@@ -68,7 +68,7 @@
       "nazev": "Domácí sada nářadí",
       "popis": "z kovu, který vydrží<br>dle Vašeho výběru",
       "cena": "cca 1.500,-",
-      "status": "0",
+      "status": "1",
       "url": "",
       "pict": "naradi"
     },
@@ -126,7 +126,7 @@
       "url": "www.ikea.com/cz/cs/catalog/products/00132920/?query=SMARTA+Forma+na+kol%C3%A1%C4%8D#/20132919",
       "pict": "kolac"
     },
-	{
+    {
       "id": "14",
       "nazev": "Sklenice na bílé víno",
       "popis": "čiré, bez zdobení či pískování<br>dle Vašeho výběru<br>např. Ikea SVALKA",
@@ -140,7 +140,7 @@
       "nazev": "Váleček na těsto",
       "popis": "dle Vašeho výběru",
       "cena": "200,-",
-      "status": "0",
+      "status": "1",
       "url": "",
       "pict": "valecek"
     },
