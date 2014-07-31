@@ -1,0 +1,184 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "nazev": "Kávovar na espresso",
+      "popis": "Nerezový, poctivý, na kávu ne kapsle!, bez mlýnku",
+      "cena": "3.000,-",
+      "status": "0",
+      "url": "www.cesk.cz/domaci-kavovar-espresso-delonghi-icona-eco-310w/",
+      "pict": "espresso"
+    },
+    {
+      "id": "1",
+      "nazev": "Mikrovlná trouba",
+      "popis": "jednoduchý design<br>líbí se nám nerez či stříbrná<br>dle Vašeho výběru",
+      "cena": "3.000,-",
+      "status": "0",
+      "url": "",
+      "pict": "mikrovlnka"
+    },
+    {
+      "id": "2",
+      "nazev": "64kg zlata",
+      "popis": "24 karátové zlato v cihlách. Možno uložit v bance a předat klíč.",
+      "cena": "nekonečná",
+      "status": "1",
+      "url": "",
+      "pict": "zlato"
+    },
+    {
+      "id": "3",
+      "nazev": "Vysavač",
+      "popis": "jednoduchý, malý<br>dle Vašeho výběru",
+      "cena": "cca 1.500,-",
+      "status": "0",
+      "url": "",
+      "pict": "vysavac"
+    },
+    {
+      "id": "4",
+      "nazev": "Talířová sada",
+      "popis": "bílá bez dekoru, jednoduchý design<br>Thun 1794 karlovarský porcelán TOM<br>prosíme dodržet, je do sady s miskami",
+      "cena": "1.640,-",
+      "status": "0",
+      "url": "www.dumporcelanu.cz/thun-1794-karlovarsky-porcelan/tom-bily-nedekorovany/talirova-souprava-pro-6-osob-thun-1794-karlovarsky-porcelan-tom-bily-nedekorovany",
+      "pict": "talire"
+    },
+    {
+      "id": "5",
+      "nazev": "Misky",
+      "popis": "bílá bez dekoru, jednoduchý design<br>Thun 1794 karlovarský porcelán TOM<br>prosíme dodržet, je do sady s talíři",
+      "cena": "1.190,-",
+      "status": "0",
+      "url": "www.dumporcelanu.cz/thun-1794-karlovarsky-porcelan/tom-bily-nedekorovany/kompotova-souprava-pro-6-osob-thun-1794-karlovarsky-porcelan-tom-bily-nedekorovany",
+      "pict": "misky"
+    },
+    {
+      "id": "6",
+      "nazev": "Elektrický ruční šlehač",
+      "popis": "mixer, ne moc velký<br>dle Vašeho výběru",
+      "cena": "cca 1.000,-",
+      "status": "0",
+      "url": "",
+      "pict": "slehac"
+    },
+    {
+      "id": "7",
+      "nazev": "Domácí sada nářadí",
+      "popis": "z kovu, který vydrží<br>dle Vašeho výběru",
+      "cena": "cca 1.500,-",
+      "status": "0",
+      "url": "",
+      "pict": "naradi"
+    },
+    {
+      "id": "8",
+      "nazev": "Příbory",
+      "popis": "celokovové, jednoduchý design<br>Ikea SEDLIG<br>alternativně varianta Tescoma – TOSCANA či podobný styl",
+      "cena": "998,-",
+      "status": "0",
+      "url": "www.ikea.com/cz/cs/catalog/products/40155311/",
+      "pict": "pribory"
+    },
+    {
+      "id": "9",
+      "nazev": "Kuchyňské náčiní",
+      "popis": "kleště, metla, obracečka, naběračka, odstředovačka, šťouchačka<br>Ikea, výběr ze série HJALTE",
+      "cena": "474,-",
+      "status": "0",
+      "url": "www.ikea.com/cz/cs/search/?query=IKEA+365%2B+HJ%C3%84LTE",
+      "pict": "nacini"
+    },
+    {
+      "id": "10",
+      "nazev": "Pánev - větší",
+      "popis": "kvalitní pánev dle Vašeho výběru - větší",
+      "cena": "1.000,-",
+      "status": "0",
+      "url": "",
+      "pict": "panev"
+    },
+    {
+      "id": "11",
+      "nazev": "Pánev - menší",
+      "popis": "kvalitní pánev dle Vašeho výběru - menší",
+      "cena": "400,-",
+      "status": "0",
+      "url": "",
+      "pict": "panev"
+    },
+    {
+      "id": "12",
+      "nazev": "Zapékací mísa",
+      "popis": "bílý porcelán, jednoduchý design<br>Český porcelán Dubí<br>série Bohemia Duo – malá<br>alternativně Ikea SMARTA",
+      "cena": "252,-",
+      "status": "0",
+      "url": "www.cesky.porcelan.cz/eshop/cs/produkty/zapekaci-misy-design-prof-arch-jiri-pelcl/zapekaci-misa-bohemia-duo-mala-20299-00000/1202",
+      "pict": "zapekaci_miska"
+    },
+    {
+      "id": "13",
+      "nazev": "Forma na koláč",
+      "popis": "průměr 25-30cm<br>dle Vašeho výběru<br>např. Ikea SMARTA",
+      "cena": "149,-",
+      "status": "0",
+      "url": "www.ikea.com/cz/cs/catalog/products/00132920/?query=SMARTA+Forma+na+kol%C3%A1%C4%8D#/20132919",
+      "pict": "kolac"
+    },
+	{
+      "id": "14",
+      "nazev": "Sklenice na bílé víno",
+      "popis": "čiré, bez zdobení či pískování<br>dle Vašeho výběru<br>např. Ikea SVALKA",
+      "cena": "99,-",
+      "status": "0",
+      "url": "www.ikea.com/cz/cs/catalog/products/00015134/",
+      "pict": "sklenky"
+    },
+    {
+      "id": "15",
+      "nazev": "Váleček na těsto",
+      "popis": "dle Vašeho výběru",
+      "cena": "200,-",
+      "status": "0",
+      "url": "",
+      "pict": "valecek"
+    },
+    {
+      "id": "16",
+      "nazev": "Struhadlo",
+      "popis": "V-krouhač<br>dle Vašeho výběru",
+      "cena": "500,-",
+      "status": "0",
+      "url": "",
+      "pict": "vkrajec"
+    },
+    {
+      "id": "17",
+      "nazev": "Dobré víno",
+      "popis": "dle Vašeho výběru",
+      "cena": "od 100,-",
+      "status": "0",
+      "url": "",
+      "pict": "vino"
+    },
+    {
+      "id": "18",
+      "nazev": "Váza",
+      "popis": "zajímavý design<br>dle Vašeho výběru",
+      "cena": "různá",
+      "status": "0",
+      "url": "",
+      "pict": "vaza"
+    },
+    {
+      "id": "19",
+      "nazev": "Poukaz Ikea",
+      "popis": "libovolná částka",
+      "cena": "různá",
+      "status": "0",
+      "url": "",
+      "pict": "poukaz_ikea"
+    }
+  ]
+}

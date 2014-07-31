@@ -59,9 +59,69 @@
 		</div>
 		<h2>Program svatebního dne</h2>
 		<div class="text">
+
 			<p class="kontakt-center">
-				Připravujeme!	
+			<strong>SOBOTA 18.10.2014</strong>
 			</p>
+			
+			<p class="kontakt-center">
+			<strong>do 11:00</strong>
+			<br>
+			příjezd svatebčanů do domu nevěsty, Závišice
+			</p>
+
+			<p class="kontakt-center">
+			<strong>12:00</strong>
+			<br>
+			svatební obřad v piaristickém klášteře, Příbor
+			</p>
+
+			<p class="kontakt-center">
+			<strong>14:00</strong>
+			<br>
+			svatební oběd ve Valašské rychtě, Frenštát p. R.
+			</p>
+
+			<p class="kontakt-center">
+			<strong>15:30</strong>
+			<br>
+			ubytování hostů, chatky v těsné blízkosti Valašské rychty, Frenštát p. R.<br>
+			focení novomanželů
+			</p>
+
+			<p class="kontakt-center">
+			<strong>od 16:30</strong>
+			<br>
+			odpolední káva, krájení dortu<br>
+			předávání a rozbalování darů<br>
+			promítání fotografií, tlachání, procházky po okolí 
+			</p>
+			
+			<p class="kontakt-center">
+			<strong>od 18:00</strong>
+			<br>
+			večerní veselice s hudbou, Valašská rychta, Frenštát p. R.
+			</p>
+
+			<p class="kontakt-center"><br>
+			<strong>NEDĚLE 19.10.2014</strong>
+			</p>
+
+			<p class="kontakt-center">
+			<strong>ráno</strong><br>
+			snídaně ve Valašské rychtě, Frenštát p. R.
+			<br>
+			výlet - dle chuťi a počasí novomanželský výlet na Pustevny nebo jinou okolní pamětihodnost
+			</p>
+
+			<p class="kontakt-center">
+			<br>
+			Podrobnější program obdržíte po příjezdu! Změny vyhrazeny! 
+			</p>
+
+
+
+
 		</div>
 		<h2>Svatební dary</h2>
 		<div class="text">
