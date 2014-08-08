@@ -6,7 +6,8 @@
 	}
 
 $( document ).ready(function() {
-    
+
+	$("#audio1").volume=0.1;
     
     $( "h2" ).click(function(event) {
     	event.stopPropagation();
