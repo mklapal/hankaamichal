@@ -71,7 +71,7 @@
 			</p>
 			
 			<p class="kontakt-center">
-			<strong>do 11:00</strong>
+			<strong>do 10:00</strong>
 			<br>
 			příjezd svatebčanů do domu nevěsty, Závišice
 			</p>
