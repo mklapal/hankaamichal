@@ -23,8 +23,10 @@ foreach ($data["data"] as $key) {
                 ');
                 if ($key['status'] === "0"){
                     $output .= ('Rezervovat');
-                } else {
+                } elseif ($key['status'] === "1") {
                     $output .= ('Zamluveno');
+                } else {
+                    $output .= $key['status'];
                 }
                 $output .=('
                 </div>

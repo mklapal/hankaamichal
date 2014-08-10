@@ -107,7 +107,7 @@ if ($_POST["dar"] <> '' && $_POST["email"] <> ''){
     $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
     $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
     $mail->Username   = "michalklapal@gmail.com";  // GMAIL username
-    $mail->Password   = "";            // GMAIL password
+    $mail->Password   = "vam8802mk";            // GMAIL password
     
     $add[] = array($_POST['email']);
     $add[] = array('michalklapal@gmail.com', 'Michal Klapal');
