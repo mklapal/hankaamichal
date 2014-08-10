@@ -66,7 +66,7 @@ foreach ($data["data"] as $key) {
         </p>
 
         <p class="js-loading">
-        Odesilam...
+        Odesílám...
         </p>        
 
         <p class="js-confirm">
